@@ -96,8 +96,8 @@ if __name__ == '__main__':
 
     time_by_feature = pd.DataFrame()
 
-    data = prepare_dataset(keep_day_ratio=1/50, # None # 50
-                           n_items_ids=500,  # 500
+    data = prepare_dataset(keep_day_ratio=None, #1/50, None
+                           n_items_ids=500,  # None, 500
                            )
     raw_features = data.columns
     feature_store = get_feature_store(storage_name='feature_store.pkl')
