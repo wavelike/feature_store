@@ -1,0 +1,14 @@
+.idea
+.idea/*
+.DS_Store
+
+__pycache__/*
+*/__pycache__/*
+
+data/*
+feature_store/*
+
+*.png
+*.parquet
+*.csv
+*.pyc
